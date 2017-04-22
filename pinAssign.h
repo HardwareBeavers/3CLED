@@ -16,4 +16,6 @@
 #define GPIO23 4
 #define GPIO24 5
 #define GPIO25 6
-
+#define GPIO12 26
+#define GPIO13 33
+#define GPIO19 24

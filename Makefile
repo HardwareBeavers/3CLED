@@ -5,3 +5,9 @@ FLAGS=-lwiringPi
 
 all:
 	$(CC) -o $(PRG) $(SRC) $(FLAGS)
+
+.PHONY: clean
+
+clean:
+	rm *.o
+	rm *.out
